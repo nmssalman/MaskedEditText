@@ -4,5 +4,5 @@ jdk:
 #   - ./scripts/prepareJitpackEnvironment.sh
 
 install:
-  - FILE="-Dfile=android-demo-release.aar"
+  - FILE="-Dfile=MaskedEditText-release.aar"
   - mvn install:install-file $FILE -DgroupId=com.github.nmssalman -DartifactId=maskededittext -Dversion=10.0 -Dpackaging=aar -DgeneratePom=true
